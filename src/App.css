@@ -36,3 +36,283 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card h3 {
+  color: #333;
+}
+
+.movie-card p {
+  color: #666;
+}
+
+
+.MovieDetail {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.MovieDetail h2 {
+  color: #333;
+}
+
+.MovieDetail p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.MovieDetail p#overview {
+  font-weight: bold;
+}
+
+.MovieDetail p#rating {
+  color: #ff9900;
+}
+
+
+.Rating {
+  margin-top: 20px;
+}
+
+.Rating p {
+  margin-bottom: 10px;
+}
+
+.Rating input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Rating button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.Rating button:hover {
+  background-color: #0056b3;
+}
+
+
+.Rating button,
+.Rating p {
+  display: inline-block;
+  margin-right: 10px;
+}
+.movie-detail-container {
+  max-width: 1000px; /* Increase the maximum width as needed */
+  margin: 50px auto; /* Increase the top and bottom margin */
+  padding: 40px; /* Increase the padding */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #282c34;
+}
+
+.movie-rating {
+  font-weight: bold;
+  color: green;
+}
+
+.user-rating {
+  font-weight: bold;
+  color: blue;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px; 
+  padding: 10px;
+  padding-right: 100px;
+  background-color: #f0f0f0; 
+}
+
+.star-rating {
+  display: flex;
+}
+
+.star {
+  font-size: 20px;
+  color: #FFD700; 
+  cursor: pointer;
+}
+
+.filled {
+  color: #FFD700; 
+}
+
+/* Buat bg ama footer*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1c1c; 
+  color: #fff; 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+  background-color: #282c34; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card h3 {
+  color: #fff; 
+}
+
+.movie-card p {
+  color: #ccc; 
+}
+
+.movie-detail-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #282c34; 
+}
+
+.movie-rating {
+  font-weight: bold;
+  color: #61dafb; 
+}
+
+.user-rating {
+  font-weight: bold;
+  color: #61dafb; 
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  padding-right: 100px;
+  background-color: #1c1c1c; 
+}
+
+.movie-card {
+  text-align: center;
+}
+
+.movie-card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.movie-card h3 {
+  margin-top: 10px;
+}
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #61dafb;
+  background-color: transparent;
+  color: #fafafa; 
+}
+
+.search-bar button {
+  padding: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  background-color: #61dafb; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section label {
+  margin-right: 10px;
+  color: #fff; 
+}
+
+.filter-section select {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #61dafb; 
+  background-color: black;
+  color: #fff; 
+}
+
+.container-movielist{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; 
+  font-size: larger;
+}
+
+h2 {
+  margin-top: 20px; 
+}
+
+.movlix{
+  color: red;
+  border-color: rgb(255, 255, 255) ;
+  border-radius: 100px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #007bff; 
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.back-button:hover {
+  background-color: #0056b3; 
+}
+.movie-detail-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #282C34;
+  border-radius: 8px;
+  width: 100%; 
+}
